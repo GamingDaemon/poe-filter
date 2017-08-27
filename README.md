@@ -8,7 +8,7 @@
 --------------------------
 
 * `gd-clean`: This is the main filter that should be used by medium to high-level characters
-* `gd-clean-all`: This filter is a variation of the `gd-clean` filter, but should be used by low-level characters. This one willdisplay *all* lootthat drops.
+* `gd-clean-all`: This filter is a variation of the `gd-clean` filter, but should be used by low-level characters. This one will display *all* loot that drops.
 
 --------------------------
 
