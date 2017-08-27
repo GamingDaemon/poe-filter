@@ -3,7 +3,7 @@
 
 --------------------------
 
-## Loot Filter Variations
+### Loot Filter Variations
 
 --------------------------
 
@@ -12,7 +12,7 @@
 
 --------------------------
 
-## INSTALLATION INSTRUCTIONS:
+### Installation
 
 --------------------------
 
