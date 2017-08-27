@@ -1,0 +1,520 @@
+# *****************************************************************************
+#
+# GamingDaemon's path of Exile Loot Filter
+#
+# https://github.com/GamingDaemon/poe-filter
+#
+# *****************************************************************************
+
+# *****************************************************************************
+#
+# Lazy Dev Caveat:
+# There is a great bit of variability across colors and sounds in this loot
+# filter. Once loot filters in PoE evolve to make use of variable/constants,
+# it will be much easier to provide consistency for the colors and sounds.
+#
+# In the meantime, new versions of this filter will try to cannibalize
+# variances as much as possible.
+#
+# *****************************************************************************
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# League specific items
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Key"
+    SetTextColor 255 128 220
+    SetFontSize 32
+    PlayAlertSound 3 250
+
+Show
+    BaseType "Leaguestone"
+    SetTextColor 255 160 32
+    SetFontSize 34
+    PlayAlertSound 3 250
+
+Show
+    BaseType "Splinter of" "Blessing" "Breachstone"
+    Rarity = Normal
+    SetTextColor 255 128 0
+    SetFontSize 40
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Items for Crafting (alchemy and essence crafting)
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
+    Rarity = Normal
+    SetTextColor 255 215 0
+    SetBorderColor 255 255 255
+    SetFontSize 32
+
+Show
+    BaseType "Turquoise Amulet"
+    ItemLevel >= 79
+    Rarity Normal
+    SetTextColor 255 192 32
+    SetFontSize 34
+    SetBorderColor 255 255 255
+
+Show
+    Class Amulet
+    ItemLevel >= 79
+    Rarity Normal
+    SetTextColor 255 80 192
+    SetFontSize 34
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Two-Stone Ring" "Topaz Ring" "Ruby Ring" "Iron Ring" "Sapphire Ring" "Gold Ring" "Prismatic Ring" "Diamond Ring"
+    ItemLevel >= 79
+    Rarity Normal
+    SetTextColor 255 160 0
+    SetFontSize 34
+    SetBorderColor 255 255 255
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Flasks
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
+    Quality > 14
+    SetTextColor 255 176 40
+    SetFontSize 30
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
+    Rarity = Magic
+    SetTextColor 80 192 255
+    SetFontSize 26
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
+    Rarity = Normal
+    SetTextColor 200 255 255
+    SetFontSize 26
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Quicksilver Flask"
+    Rarity < Unique
+    Quality > 4
+    SetTextColor 255 104 0
+    SetFontSize 32
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Quicksilver Flask"
+    Rarity < Unique
+    SetTextColor 255 160 0
+    SetFontSize 32
+    SetBorderColor 255 255 255
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Gems
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Empower" "Enlighten" "Enhance"
+    SetTextColor 220 80 0
+    SetFontSize 34
+
+Show
+    BaseType "Vaal"
+    Class Gem
+    SetTextColor 220 80 164
+    SetFontSize 34
+
+Show
+    Class Gem
+    Quality > 0
+    SetTextColor 0 195 255
+    SetFontSize 34
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Essences
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Essence"
+    SetTextColor 210 165 165
+    SetFontSize 40
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Shaper Orbs
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Shaper's Orb" "Unshaping Orb"
+    SetTextColor 80 240 255
+    SetFontSize 40
+
+Show
+    BaseType "Cartographer's Sextant" "Cartographer's Seal"
+    SetTextColor 165 128 165
+    SetFontSize 40
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Cards
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Card
+    SetTextColor 220 128 255
+    SetFontSize 40
+    PlayAlertSound 6 250
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Jewels
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Jewel
+    SetTextColor 212 0 176
+    SetFontSize 42
+    PlayAlertSound 7 300
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Currency
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Exalted Orb"
+    SetTextColor 255 0 255
+    SetFontSize 44
+    PlayAlertSound ShExalted 300
+
+Show
+    BaseType "Mirror of Kalandra"
+    SetTextColor 255 0 255
+    SetFontSize 44
+    PlayAlertSound ShMirror 300
+
+Show
+    BaseType "Eternal Orb"
+    SetTextColor 255 0 255
+    SetFontSize 44
+    PlayAlertSound 2 300
+
+Show
+    BaseType "Chromatic Orb"
+    SetTextColor 128 255 255
+    SetBorderColor 255 255 255
+    SetFontSize 34
+
+Show
+    BaseType "Orb of Alchemy"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShAlchemy 300
+
+Show
+    BaseType "Blessed Orb"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShBlessed 300
+
+Show
+    BaseType "Chaos Orb"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShChaos 300
+
+Show
+    BaseType "Divine Orb"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShDivine 300
+
+Show
+    BaseType "Fusing"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShFusing 300
+
+Show
+    BaseType "Regal Orb"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShRegal 300
+
+Show
+    BaseType "Vaal Orb"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShVaal 300
+
+Show
+    BaseType "Orb of Regret" "Jeweller's Orb" "Gemcutter's Prism" "Orb of Chance" "Cartographer's Chisel" "Orb of Scouring"
+    SetTextColor 255 128 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound ShGeneral 300
+
+Show
+    BaseType "Alteration" "Augmentation" "Transmutation"
+    SetTextColor 224 64 251
+    SetBorderColor 255 255 255
+    SetFontSize 32
+    PlayAlertSound 11 200
+
+Show
+    BaseType "Orb" "Shard"
+    Class Currency
+    SetTextColor 255 0 128
+    SetBorderColor 255 255 255
+    SetFontSize 38
+    PlayAlertSound 1 150
+
+Show
+    BaseType "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone"
+    SetTextColor 160 255 160
+    SetFontSize 30
+
+Show
+    Class Currency
+    SetTextColor 0 128 255
+    SetFontSize 32
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Placeholder for Portal Scrolls
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Portal Scroll"
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Maps
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Map
+    Rarity < Unique
+    ItemLevel >= 76
+    SetTextColor 0 200 255
+    SetFontSize 40
+    PlayAlertSound 11 300
+
+Show
+    Class Map
+    Rarity < Unique
+    ItemLevel >= 73
+    SetTextColor 70 200 120
+    SetFontSize 38
+    PlayAlertSound 10 300
+
+Show
+    BaseType "Sacrifice at Midnight"
+    SetTextColor 248 80 172
+    SetFontSize 38
+    PlayAlertSound 12 300
+
+Show
+    Class Maps
+    Rarity < Unique
+    SetTextColor 249 223 172
+    SetFontSize 38
+
+Show
+    Class Map Fragments
+    Rarity < Unique
+    SetTextColor 200 0 128
+    SetFontSize 38
+    PlayAlertSound 13 300
+
+Show
+    Class Maps
+    Rarity Unique
+    SetFontSize 40
+    PlayAlertSound 16 300
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Quest Items
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Quest Items
+    SetFontSize 32
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Linked Items
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    LinkedSockets >= 6
+    SetTextColor 255 0 255
+    SetFontSize 48
+    PlayAlertSound 2 300
+
+Show
+    LinkedSockets >= 5
+    SetTextColor 0 192 255
+    SetFontSize 46
+    PlayAlertSound 4 300
+
+Show
+    Sockets >= 6
+    SetTextColor 255 0 80
+    SetFontSize 42
+    PlayAlertSound 3 300
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Jewelry
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Ring Amulet
+    Rarity Rare
+    ItemLevel >= 60
+    SetTextColor 192 96 255
+    SetFontSize 35
+    SetBorderColor 255 255 255
+    PlayAlertSound 8 200
+
+Show
+    Class Ring Amulet
+    Rarity Rare
+    SetTextColor 255 96 192
+    SetFontSize 35
+    SetBorderColor 255 255 255
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Uniques
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Rarity Unique
+    SetFontSize 42
+    SetBorderColor 255 255 255
+    PlayAlertSound 2 200
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Rare
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Rarity Rare
+    SocketGroup RGB
+    SetFontSize 35
+    SetTextColor 255 0 255
+
+Show
+    Rarity Rare
+    SetFontSize 35
+    SetBorderColor 255 255 255
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Chrome Recipe
+# This needs to be toward the bottom of the filter
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    SocketGroup RGB
+    SetTextColor 255 182 255
+    SetFontSize 34
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Utility Flasks
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Flasks
+    SetTextColor 255 200 200
+    SetFontSize 26
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Items for using Chances
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Harbinger Bow" "Spine Bow"
+    Rarity Normal
+    SetTextColor 96 96 96
+    SetFontSize 30
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Sorcerer Boots"
+    Rarity Normal
+    SetTextColor 255 105 180
+    SetFontSize 30
+    SetBorderColor 255 255 255
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Show all of the remaining items in the PoE default manner
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Rarity Magic
+    SetFontSize 28
+
+Show
+    Rarity Normal
+    SetFontSize 24
