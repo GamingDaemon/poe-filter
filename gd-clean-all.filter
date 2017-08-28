@@ -20,7 +20,7 @@
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
-# League specific items
+# Labyrinth items
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -30,18 +30,43 @@ Show
     SetFontSize 32
     PlayAlertSound 3 250
 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Chrome + Rare
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 Show
-    BaseType "Leaguestone"
-    SetTextColor 255 160 32
+    Rarity Rare
+    SocketGroup RGB
+    SetFontSize 35
+    SetTextColor 128 222 234
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Items for Regal Recipe
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Rarity Rare
+    ItemLevel >= 75
+    SetFontSize 35
+    SetTextColor 245 127 23
+    SetBorderColor 248 187 208
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Items for Chaos Recipe
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Rarity Rare
+    ItemLevel >= 60
     SetFontSize 34
-    PlayAlertSound 3 250
-
-Show
-    BaseType "Splinter of" "Blessing" "Breachstone"
-    Rarity = Normal
-    SetTextColor 255 128 0
-    SetFontSize 40
-
+    SetTextColor 251 192 45
+    SetBorderColor 255 245 157
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -441,14 +466,8 @@ Show
 
 Show
     Rarity Rare
-    SocketGroup RGB
-    SetFontSize 35
-    SetTextColor 255 0 255
-
-Show
-    Rarity Rare
-    SetFontSize 35
-    SetBorderColor 255 255 255
+    SetFontSize 30
+    SetTextColor 255 236 179 180
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -495,6 +514,23 @@ Show
     SetFontSize 30
     SetBorderColor 255 255 255
 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# League specific items
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    BaseType "Leaguestone"
+    SetTextColor 255 160 32
+    SetFontSize 34
+    PlayAlertSound 3 250
+
+Show
+    BaseType "Splinter of" "Blessing" "Breachstone"
+    Rarity = Normal
+    SetTextColor 255 128 0
+    SetFontSize 40
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
