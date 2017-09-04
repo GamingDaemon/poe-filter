@@ -20,6 +20,42 @@
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
+# Jewels
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Jewel
+    SetTextColor 212 0 176
+    SetFontSize 42
+    PlayAlertSound 7 300
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Jewelry for Chaos and Regal Recipes
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Show
+    Class Ring Amulet
+    Rarity Rare
+    ItemLevel >= 75
+    SetTextColor 255 96 192
+    SetFontSize 35
+    SetBorderColor 255 255 255
+    PlayAlertSound 10 300
+
+Show
+    Class Ring Amulet
+    Rarity Rare
+    ItemLevel >= 60
+    SetTextColor 255 152 63
+    SetFontSize 35
+    SetBorderColor 255 255 255
+    PlayAlertSound 8 300
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
 # Labyrinth items
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -80,6 +116,13 @@ Show
     SetTextColor 255 215 0
     SetBorderColor 255 255 255
     SetFontSize 32
+
+Show
+    BaseType "Vaal Regalia"
+    Rarity Normal
+    SetTextColor 32 207 255
+    SetFontSize 34
+    SetBorderColor 255 255 255
 
 Show
     BaseType "Turquoise Amulet"
@@ -211,19 +254,6 @@ Show
     SetFontSize 40
     PlayAlertSound 6 250
 
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#
-# Jewels
-#
-# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-Show
-    Class Jewel
-    SetTextColor 212 0 176
-    SetFontSize 42
-    PlayAlertSound 7 300
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
 # Currency
@@ -232,6 +262,7 @@ Show
 
 Show
     BaseType "Portal Scroll"
+    SetTextColor 206 147 216
 
 Show
     BaseType "Exalted Orb"
@@ -421,30 +452,6 @@ Show
     SetFontSize 42
     PlayAlertSound 3 300
 
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#
-# Jewelry
-#
-# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-Show
-    Class Ring Amulet
-    Rarity Rare
-    ItemLevel >= 60
-    SetTextColor 192 96 255
-    SetFontSize 35
-    SetBorderColor 255 255 255
-    PlayAlertSound 8 200
-
-Show
-    Class Ring Amulet
-    Rarity Rare
-    SetTextColor 255 96 192
-    SetFontSize 35
-    SetBorderColor 255 255 255
-
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
 # Uniques
@@ -467,7 +474,7 @@ Show
 Show
     Rarity Rare
     SetFontSize 30
-    SetTextColor 255 236 179 180
+    SetTextColor 255 236 179
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
