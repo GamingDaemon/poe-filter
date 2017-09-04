@@ -88,8 +88,7 @@ Show
     Rarity Rare
     ItemLevel >= 75
     SetFontSize 35
-    SetTextColor 245 127 23
-    SetBorderColor 248 187 208
+    SetBorderColor 255 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -101,8 +100,8 @@ Show
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 34
-    SetTextColor 251 192 45
-    SetBorderColor 255 245 157
+    SetTextColor 206 147 216
+    SetBorderColor 255 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
