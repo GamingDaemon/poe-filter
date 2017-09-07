@@ -430,7 +430,7 @@ Show
     Class Ring Amulet
     Rarity Rare
     ItemLevel >= 75
-    SetTextColor 255 96 192
+    SetTextColor 0 176 255
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 10 300
@@ -478,7 +478,7 @@ Show
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 34
-    SetTextColor 206 147 216
+    SetTextColor 211 47 47
     SetBorderColor 255 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
