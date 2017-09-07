@@ -236,13 +236,11 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 255 0 255
     SetFontSize 44
-    PlayAlertSound ShExalted 300
 
 Show
     BaseType "Mirror of Kalandra"
     SetTextColor 255 0 255
     SetFontSize 44
-    PlayAlertSound ShMirror 300
 
 Show
     BaseType "Eternal Orb"
@@ -261,56 +259,56 @@ Show
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShAlchemy 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Blessed Orb"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShBlessed 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Chaos Orb"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShChaos 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Divine Orb"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShDivine 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Fusing"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShFusing 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Regal Orb"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShRegal 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Vaal Orb"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShVaal 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Orb of Regret" "Jeweller's Orb" "Gemcutter's Prism" "Orb of Chance" "Cartographer's Chisel" "Orb of Scouring"
     SetTextColor 255 128 0
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound ShGeneral 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
@@ -336,6 +334,7 @@ Show
     Class Currency
     SetTextColor 0 128 255
     SetFontSize 32
+
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
