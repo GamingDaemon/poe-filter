@@ -79,6 +79,14 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
+    BaseType "Leather Belt"
+    Rarity = Normal
+    ItemLevel >= 70
+    SetTextColor 100 181 246
+    SetBorderColor 255 255 255
+    SetFontSize 32
+
+Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
     Rarity = Normal
     SetTextColor 255 215 0
