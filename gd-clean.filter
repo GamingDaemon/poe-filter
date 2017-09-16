@@ -94,17 +94,10 @@ Show
     SetFontSize 32
 
 Show
-    BaseType "Vaal Regalia"
-    Rarity Normal
-    SetTextColor 32 207 255
-    SetFontSize 34
-    SetBorderColor 255 255 255
-
-Show
     BaseType "Turquoise Amulet"
     ItemLevel >= 79
     Rarity Normal
-    SetTextColor 255 192 32
+    SetTextColor 0 176 255
     SetFontSize 34
     SetBorderColor 255 255 255
 
@@ -112,7 +105,7 @@ Show
     Class Amulet
     ItemLevel >= 79
     Rarity Normal
-    SetTextColor 255 80 192
+    SetTextColor 255 53 255
     SetFontSize 34
     SetBorderColor 255 255 255
 
@@ -120,7 +113,7 @@ Show
     BaseType "Two-Stone Ring" "Topaz Ring" "Ruby Ring" "Iron Ring" "Sapphire Ring" "Gold Ring" "Prismatic Ring" "Diamond Ring"
     ItemLevel >= 79
     Rarity Normal
-    SetTextColor 255 160 0
+    SetTextColor 255 102 178
     SetFontSize 34
     SetBorderColor 255 255 255
 
@@ -437,7 +430,7 @@ Show
     Class Ring Amulet
     Rarity Rare
     ItemLevel >= 75
-    SetTextColor 0 176 255
+    SetTextColor 255 160 0
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 10 300
@@ -446,7 +439,7 @@ Show
     Class Ring Amulet
     Rarity Rare
     ItemLevel >= 60
-    SetTextColor 255 152 63
+    SetTextColor 255 192 32
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 8 300
