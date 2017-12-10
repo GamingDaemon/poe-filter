@@ -193,12 +193,27 @@ Show
     SetTextColor 210 165 165
     SetFontSize 40
 
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
-# Shaper Orbs
+# Shaper Orbs, Shaper and Elder Items
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# Highlight Elder Items: Caster-Weapons
+Show
+    Class "Daggers" "Wands" "Sceptres" 
+    Rarity <= Rare 
+    ElderItem True 
+    SetFontSize 42 
+    SetBorderColor 0 220 220 255 
+
+# Highlight Shaper Items: Caster-Weapons 
+Show
+    Class "Daggers" "Wands" "Sceptres" 
+    Rarity <= Rare 
+    ShaperItem True 
+    SetFontSize 42 
+    SetBorderColor 135 0 220 255 
 
 Show
     BaseType "Shaper's Orb" "Unshaping Orb"
@@ -342,6 +357,14 @@ Show
 # Maps
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# Highlight all Shaped Maps
+Show
+    Class "Maps" 
+    ShapedMap True 
+    SetFontSize 40 
+    SetBorderColor 255 0 0 255 
+    PlayAlertSound 4 300 
 
 Show
     Class Map
