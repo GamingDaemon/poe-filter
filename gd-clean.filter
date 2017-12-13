@@ -252,6 +252,7 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 255 0 255
     SetFontSize 44
+    PlayAlertSound 1 300
 
 Show
     BaseType "Mirror of Kalandra"
@@ -339,7 +340,7 @@ Show
     SetTextColor 255 0 128
     SetBorderColor 255 255 255
     SetFontSize 38
-    PlayAlertSound 1 150
+    PlayAlertSound 16 300
 
 Show
     BaseType "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone"
