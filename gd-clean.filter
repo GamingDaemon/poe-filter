@@ -352,7 +352,6 @@ Show
     SetTextColor 0 128 255
     SetFontSize 32
 
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
 # Maps
@@ -482,6 +481,14 @@ Show
     SetFontSize 35
     SetTextColor 128 222 234
 
+Show
+    Rarity Rare
+    SocketGroup RGB
+    Height <= 3
+    Width <= 1
+    SetFontSize 35
+    SetTextColor 128 222 234
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
 # Items for Regal Recipe
@@ -543,6 +550,13 @@ Show
     SocketGroup RGB
     Height <= 2
     Width <= 2
+    SetTextColor 255 182 255
+    SetFontSize 34
+
+Show
+    SocketGroup RGB
+    Height <= 3
+    Width <= 1
     SetTextColor 255 182 255
     SetFontSize 34
 
