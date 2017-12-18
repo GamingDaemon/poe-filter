@@ -562,7 +562,7 @@ Show
 
 Show
     SocketGroup RGB
-    SetTextColor 255 182 255
+    SetTextColor 255 182 255 192
     SetFontSize 24
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
