@@ -477,6 +477,8 @@ Show
 Show
     Rarity Rare
     SocketGroup RGB
+    Height <= 2
+    Width <= 2
     SetFontSize 35
     SetTextColor 128 222 234
 
@@ -539,9 +541,15 @@ Show
 
 Show
     SocketGroup RGB
+    Height <= 2
+    Width <= 2
     SetTextColor 255 182 255
     SetFontSize 34
 
+Show
+    SocketGroup RGB
+    SetTextColor 255 182 255
+    SetFontSize 24
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
