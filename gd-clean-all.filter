@@ -523,6 +523,7 @@ Show
 Show
     Rarity Unique
     SetFontSize 42
+    SetTextColor 255 52 0
     SetBorderColor 255 255 255
     PlayAlertSound 2 200
 
