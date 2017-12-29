@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.1.2
+# Version: 0.2.0
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -366,49 +366,34 @@ Show
     ShapedMap True 
     SetFontSize 40 
     SetBorderColor 255 0 0 255 
-    PlayAlertSound 4 300 
-
-Show
-    Class Map
-    Rarity < Unique
-    ItemLevel >= 76
-    SetTextColor 0 200 255
-    SetFontSize 40
-    PlayAlertSound 11 300
-
-Show
-    Class Map
-    Rarity < Unique
-    ItemLevel >= 73
-    SetTextColor 70 200 120
-    SetFontSize 38
-    PlayAlertSound 10 300
+    PlayAlertSound 11 300 
 
 Show
     BaseType "Sacrifice at Midnight"
     SetTextColor 248 80 172
     SetFontSize 38
-    PlayAlertSound 12 300
+    PlayAlertSound 11 300
 
 Show
-    Class Maps
-    Rarity < Unique
-    SetTextColor 249 223 172
-    SetFontSize 38
-
-Show
-    Class Map Fragments
+    Class "Map Fragments"
     Rarity < Unique
     SetTextColor 200 0 128
     SetFontSize 38
-    PlayAlertSound 13 300
+    PlayAlertSound 11 300
+
+Show
+    Class Map
+    Rarity < Unique
+    SetTextColor 0 200 255
+    SetFontSize 40
+    PlayAlertSound 11 300
 
 Show
     Class Maps
     Rarity Unique
     SetFontSize 40
+    SetTextColor 255 52 0
     PlayAlertSound 16 300
-
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -419,7 +404,6 @@ Show
 Show
     Class Quest Items
     SetFontSize 32
-
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
