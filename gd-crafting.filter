@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.3
+# Version: 0.4.4
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -173,7 +173,7 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
-    BaseType "Flail"
+    BaseType "Foil" "Rapier"
     Rarity Rare
     SetTextColor 255 200 0
     SetFontSize 28
