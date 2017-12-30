@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.3.1
+# Version: 0.3.2
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -251,21 +251,21 @@ Show
 
 Show
     BaseType "Orb of Alchemy" "Blessed Orb" "Chaos Orb" "Divine Orb" "Fusing" "Regal Orb" "Vaal Orb"
-    SetTextColor 186 104 200
+    SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 2 300
 
 Show
     BaseType "Orb of Regret" "Jeweller's Orb" "Gemcutter's Prism" "Orb of Chance" "Cartographer's Chisel" "Orb of Scouring"
-    SetTextColor 186 104 200
+    SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 2 300
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 200 255 0
+    SetTextColor 200 0 255
     SetBorderColor 255 255 255
     SetFontSize 32
     PlayAlertSound 11 200
