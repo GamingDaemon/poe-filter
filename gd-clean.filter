@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.0
+# Version: 0.4.1
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -51,12 +51,47 @@
 
 # *****************************************************************************
 #
-# Colors and Sounds
+# Possible Colors
 #
-# Colors
-# Currency:                     Pastel Green    (0 255 200)
-# Maps (most):                  Powder Blue     (0 200 255)
-# Uniques Items:                Dark Red        (255 50 0)
+# Purple                255 0 200
+# Light Purple          255 128 220
+# Bright Yellow	        255 215 0
+# Bright Orange	        255 176 40
+# Powder Blue           0 200 255
+# Pale Blue	            200 255 255
+# Orange                255 104 0
+# Light Orange          255 160 0
+# Dark Orange           220 80 0
+# Pink	                220 80 164
+# Plum	                210 165 165
+# Lt Powder Blue        80 240 255
+# Purple                165 128 165
+# Light Pink            220 128 255
+# Dark Pink	            255 0 255
+# Cyan	                128 255 255
+# Pastel Green          0 255 200
+# Violet                102 0 102
+# Light Green           160 255 160
+# Blue                  0 128 255
+# Dark Red              255 50 0
+# Light Yellow          255 240 192
+# Pale Pink	            255 182 255
+# Light Red	            255 200 200
+# Dark Gray	            96 96 96
+# Light Gray            160 160 160
+#
+# *****************************************************************************
+
+# *****************************************************************************
+#
+# Colors Assignments
+#
+# Highest Currency              Dark Pink       (255 0 255)
+# Currency                      Pastel Green    (0 255 200)
+# Maps (mos t)                  Powder Blue     (0 200 255)
+# Uniques Items                 Dark Red        (255 50 0)
+# 6-Link Items                  Dark Pink       (255 0 255)
+# 6-Socket Items                Light Orange    (255 160 0)
 # Rare Items (Regal Recipe):    Orange          (255 104 0)
 # Rare Items (Chaos Recipe):    Yellow          (default)
 # Rare Items (No Recipe):       Light Yellow    (255 240 192)
@@ -65,26 +100,30 @@
 # Jewels:                       Purple          (255 0 200)
 # Labyrinth                     Light Purple    (255 128 220)
 # Essence Crafting              Bright Yellow   (255 215 0)
-# Desired Magic Flasks          Bright Blue     (80 192 255)
+# Desired Magic Flasks          Powder Blue     (0 200 255)
 # Desired Quality Flasks        Bright Orange   (255 176 40)
-# Desired Normal Flasks         Light Blue      (200 255 255)
+# Desired Normal Flasks         Pale Blue       (200 255 255)
 # Quicksilver Quality Flasks    Orange          (255 104 0)
-# Quicksilver Flasks            Light Purple    (255 160 0)
+# Quicksilver Flasks            Light Orange    (255 160 0)
 # Special Gems                  Dark Orange     (220 80 0)
 # Vaal Gems                     Pink            (220 80 164)
 # Superior Gems                 Powder Blue     (0 200 255)
 # Normal Gems                   Green           (default)
-# Essences                      Light Purple    (210 165 165)
+# Essences                      Plum            (210 165 165)
 # Shaper's Orbs                 Lt Powder Blue  (80 240 255)
 # Cartogrpahers Items           Purple          (165 128 165)
 # Divination Card               Light Pink      (220 128 255)
 # Portal Scroll                 Light Pink      (220 128 255)
-# Highest Currency              Dark Pink       (255 0 255)
-# Chrome RGB Recipe             Cyan            (128 255 255)
+# Chrome Orbs                   Cyan            (128 255 255)
+# Rare RGB Items                Cyan            (128 255 255)
+# Chrome Orb Recipe             Cyan            (255 182 255)
 # Utility Flasks                Light Red       (255 200 200)
 # Items for Chances             Dark Gray       (96 96 96)
 # Crafting                      Light Gray      (160 160 160)
 # League specific items         Bright Orange   (255 176 40)
+# Miscellaneous Items           Light Green     (160 255 160)
+# Miscellaneous Orbs/Shards     Violet          (102 0 102)
+# Miscellaneous Currency        Blue            (0 128 255)
 #
 # *****************************************************************************
 
@@ -141,7 +180,7 @@ Show
 Show
     BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
     Rarity = Magic
-    SetTextColor 80 192 255
+    SetTextColor 0 200 255
     SetFontSize 26
     SetBorderColor 255 255 255
 
@@ -296,7 +335,7 @@ Show
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 200 0 255
+    SetTextColor 160 255 160
     SetBorderColor 255 255 255
     SetFontSize 32
     PlayAlertSound 11 200
@@ -304,7 +343,7 @@ Show
 Show
     BaseType "Orb" "Shard"
     Class Currency
-    SetTextColor 255 0 128
+    SetTextColor 102 0 102
     SetBorderColor 255 255 255
     SetFontSize 38
     PlayAlertSound 16 300
@@ -330,19 +369,19 @@ Show
     Class "Maps" 
     ShapedMap True 
     SetFontSize 40 
-    SetBorderColor 255 0 0 255 
+    SetBorderColor 255 176 40
     PlayAlertSound 13 300 
 
 Show
     BaseType "Sacrifice at Midnight"
-    SetTextColor 248 80 172
+    SetTextColor 255 104 0
     SetFontSize 38
     PlayAlertSound 13 300
 
 Show
     Class "Map Fragments"
     Rarity < Unique
-    SetTextColor 200 0 128
+    SetTextColor 255 160 0
     SetFontSize 38
     PlayAlertSound 13 300
 
@@ -357,7 +396,7 @@ Show
     Class Maps
     Rarity Unique
     SetFontSize 40
-    SetTextColor 255 52 0
+    SetTextColor 255 50 0
     PlayAlertSound 16 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -384,13 +423,13 @@ Show
 
 Show
     LinkedSockets >= 5
-    SetTextColor 0 192 255
+    SetTextColor 0 200 255
     SetFontSize 46
     PlayAlertSound 4 300
 
 Show
     Sockets >= 6
-    SetTextColor 255 0 80
+    SetTextColor 255 160 0
     SetFontSize 42
     PlayAlertSound 3 300
 
@@ -513,8 +552,8 @@ Show
 
 Show
     SocketGroup RGB
-    SetTextColor 255 182 255 192
-    SetFontSize 24
+    SetTextColor 255 182 255
+    SetFontSize 22
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
