@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.1
+# Version: 0.4.2
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -91,7 +91,7 @@
 # Maps (mos t)                  Powder Blue     (0 200 255)
 # Uniques Items                 Dark Red        (255 50 0)
 # 6-Link Items                  Dark Pink       (255 0 255)
-# 6-Socket Items                Light Orange    (255 160 0)
+# 6-Socket Items                Lt Powder Blue  (80 240 255)
 # Rare Items (Regal Recipe):    Orange          (255 104 0)
 # Rare Items (Chaos Recipe):    Yellow          (default)
 # Rare Items (No Recipe):       Light Yellow    (255 240 192)
@@ -121,6 +121,7 @@
 # Items for Chances             Dark Gray       (96 96 96)
 # Crafting                      Light Gray      (160 160 160)
 # League specific items         Bright Orange   (255 176 40)
+# Alterations Et Al             Bright Orange   (255 176 40)
 # Miscellaneous Items           Light Green     (160 255 160)
 # Miscellaneous Orbs/Shards     Violet          (102 0 102)
 # Miscellaneous Currency        Blue            (0 128 255)
@@ -335,7 +336,7 @@ Show
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 160 255 160
+    SetTextColor 255 176 40
     SetBorderColor 255 255 255
     SetFontSize 32
     PlayAlertSound 11 200
@@ -429,7 +430,7 @@ Show
 
 Show
     Sockets >= 6
-    SetTextColor 255 160 0
+    SetTextColor 80 240 255
     SetFontSize 42
     PlayAlertSound 3 300
 
