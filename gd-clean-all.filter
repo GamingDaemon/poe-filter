@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.3.2
+# Version: 0.4.0
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -49,6 +49,44 @@
 #
 # *****************************************************************************
 
+# *****************************************************************************
+#
+# Colors and Sounds
+#
+# Colors
+# Currency:                     Pastel Green    (0 255 200)
+# Maps (most):                  Powder Blue     (0 200 255)
+# Uniques Items:                Dark Red        (255 50 0)
+# Rare Items (Regal Recipe):    Orange          (255 104 0)
+# Rare Items (Chaos Recipe):    Yellow          (default)
+# Rare Items (No Recipe):       Light Yellow    (255 240 192)
+# Rare Jewelry (Regal Recipe):  Orange          (255 104 0)
+# Rare Jewelry (Chaos Recipe):  Yellow          (default)
+# Jewels:                       Purple          (255 0 200)
+# Labyrinth                     Light Purple    (255 128 220)
+# Essence Crafting              Bright Yellow   (255 215 0)
+# Desired Magic Flasks          Bright Blue     (80 192 255)
+# Desired Quality Flasks        Bright Orange   (255 176 40)
+# Desired Normal Flasks         Light Blue      (200 255 255)
+# Quicksilver Quality Flasks    Orange          (255 104 0)
+# Quicksilver Flasks            Light Purple    (255 160 0)
+# Special Gems                  Dark Orange     (220 80 0)
+# Vaal Gems                     Pink            (220 80 164)
+# Superior Gems                 Powder Blue     (0 200 255)
+# Normal Gems                   Green           (default)
+# Essences                      Light Purple    (210 165 165)
+# Shaper's Orbs                 Lt Powder Blue  (80 240 255)
+# Cartogrpahers Items           Purple          (165 128 165)
+# Divination Card               Light Pink      (220 128 255)
+# Portal Scroll                 Light Pink      (220 128 255)
+# Highest Currency              Dark Pink       (255 0 255)
+# Chrome RGB Recipe             Cyan            (128 255 255)
+# Utility Flasks                Light Red       (255 200 200)
+# Items for Chances             Dark Gray       (96 96 96)
+# Crafting                      Light Gray      (160 160 160)
+# League specific items         Bright Orange   (255 176 40)
+#
+# *****************************************************************************
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -58,7 +96,7 @@
 
 Show
     Class Jewel
-    SetTextColor 212 0 176
+    SetTextColor 255 0 200
     SetFontSize 42
     PlayAlertSound 7 300
 
@@ -76,17 +114,9 @@ Show
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
-# Items for Crafting (alchemy and essence crafting)
+# Items for Essence Crafting
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-Show
-    BaseType "Leather Belt"
-    Rarity = Normal
-    ItemLevel >= 75
-    SetTextColor 100 181 246
-    SetBorderColor 255 255 255
-    SetFontSize 32
 
 Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
@@ -157,7 +187,7 @@ Show
 Show
     Class Gem
     Quality > 0
-    SetTextColor 0 195 255
+    SetTextColor 0 200 255
     SetFontSize 34
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -206,7 +236,7 @@ Show
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
-# Cards
+# Divination Cards
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -224,7 +254,7 @@ Show
 
 Show
     BaseType "Portal Scroll"
-    SetTextColor 206 147 216
+    SetTextColor 220 128 255
 
 Show
     BaseType "Exalted Orb"
@@ -236,12 +266,13 @@ Show
     BaseType "Mirror of Kalandra"
     SetTextColor 255 0 255
     SetFontSize 44
+    PlayAlertSound 5 300
 
 Show
     BaseType "Eternal Orb"
     SetTextColor 255 0 255
     SetFontSize 44
-    PlayAlertSound 2 300
+    PlayAlertSound 5 300
 
 Show
     BaseType "Chromatic Orb"
@@ -373,7 +404,7 @@ Show
     Class Ring Amulet
     Rarity Rare
     ItemLevel >= 75
-    SetTextColor 255 160 0
+    SetTextColor 255 104 0
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 10 300
@@ -382,7 +413,6 @@ Show
     Class Ring Amulet
     Rarity Rare
     ItemLevel >= 60
-    SetTextColor 255 192 32
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 8 300
@@ -399,7 +429,7 @@ Show
     Height <= 2
     Width <= 2
     SetFontSize 35
-    SetTextColor 128 222 234
+    SetTextColor 128 255 255
 
 Show
     Rarity Rare
@@ -407,7 +437,7 @@ Show
     Height <= 3
     Width <= 1
     SetFontSize 35
-    SetTextColor 128 222 234
+    SetTextColor 128 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -443,7 +473,7 @@ Show
 Show
     Rarity Unique
     SetFontSize 42
-    SetTextColor 255 52 0
+    SetTextColor 255 50 0
     SetBorderColor 255 255 255
     PlayAlertSound 2 200
 
@@ -506,6 +536,7 @@ Show
 Show
     BaseType "Harbinger Bow" "Spine Bow"
     Rarity Normal
+    ItemLevel >= 75
     SetTextColor 96 96 96
     SetFontSize 30
     SetBorderColor 255 255 255
@@ -513,7 +544,8 @@ Show
 Show
     BaseType "Sorcerer Boots"
     Rarity Normal
-    SetTextColor 255 105 180
+    ItemLevel >= 75
+    SetTextColor 96 96 96
     SetFontSize 30
     SetBorderColor 255 255 255
 
@@ -525,14 +557,14 @@ Show
 
 Show
     BaseType "Leaguestone"
-    SetTextColor 255 160 32
+    SetTextColor 255 176 40
     SetFontSize 34
     PlayAlertSound 3 250
 
 Show
     BaseType "Splinter of" "Blessing" "Breachstone"
     Rarity = Normal
-    SetTextColor 255 128 0
+    SetTextColor 255 176 40
     SetFontSize 40
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
