@@ -55,7 +55,7 @@
 #
 # Purple                255 0 200
 # Light Purple          255 128 220
-# Bright Yellow	        255 215 0
+# Bright Yellow	        255 200 0
 # Bright Orange	        255 176 40
 # Powder Blue           0 200 255
 # Pale Blue	            200 255 255
@@ -99,7 +99,7 @@
 # Rare Jewelry (Chaos Recipe):  Yellow          (default)
 # Jewels:                       Purple          (255 0 200)
 # Labyrinth                     Light Purple    (255 128 220)
-# Essence Crafting              Bright Yellow   (255 215 0)
+# Essence Crafting              Bright Yellow   (255 200 0)
 # Desired Magic Flasks          Powder Blue     (0 200 255)
 # Desired Quality Flasks        Bright Orange   (255 176 40)
 # Desired Normal Flasks         Pale Blue       (200 255 255)
@@ -175,7 +175,7 @@ Show
 Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
     Rarity = Normal
-    SetTextColor 255 215 0
+    SetTextColor 255 200 0
     SetBorderColor 255 255 255
     SetFontSize 32
 
@@ -350,7 +350,7 @@ Show
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 255 176 40
+    SetTextColor 255 128 220
     SetBorderColor 255 255 255
     SetFontSize 32
     PlayAlertSound 11 200
@@ -444,7 +444,7 @@ Show
 
 Show
     Sockets >= 6
-    SetTextColor 80 240 255
+    SetTextColor 220 80 164
     SetFontSize 42
     PlayAlertSound 3 300
 
