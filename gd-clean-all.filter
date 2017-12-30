@@ -83,7 +83,7 @@ Show
 Show
     BaseType "Leather Belt"
     Rarity = Normal
-    ItemLevel >= 70
+    ItemLevel >= 75
     SetTextColor 100 181 246
     SetBorderColor 255 255 255
     SetFontSize 32
@@ -94,30 +94,6 @@ Show
     SetTextColor 255 215 0
     SetBorderColor 255 255 255
     SetFontSize 32
-
-Show
-    BaseType "Turquoise Amulet"
-    ItemLevel >= 79
-    Rarity Normal
-    SetTextColor 0 176 255
-    SetFontSize 34
-    SetBorderColor 255 255 255
-
-Show
-    Class Amulet
-    ItemLevel >= 79
-    Rarity Normal
-    SetTextColor 255 53 255
-    SetFontSize 34
-    SetBorderColor 255 255 255
-
-Show
-    BaseType "Two-Stone Ring" "Topaz Ring" "Ruby Ring" "Iron Ring" "Sapphire Ring" "Gold Ring" "Prismatic Ring" "Diamond Ring"
-    ItemLevel >= 79
-    Rarity Normal
-    SetTextColor 255 102 178
-    SetFontSize 34
-    SetBorderColor 255 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -274,64 +250,22 @@ Show
     SetFontSize 34
 
 Show
-    BaseType "Orb of Alchemy"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Blessed Orb"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Chaos Orb"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Divine Orb"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Fusing"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Regal Orb"
-    SetTextColor 255 128 0
-    SetBorderColor 255 255 255
-    SetFontSize 40
-    PlayAlertSound 2 300
-
-Show
-    BaseType "Vaal Orb"
-    SetTextColor 255 128 0
+    BaseType "Orb of Alchemy" "Blessed Orb" "Chaos Orb" "Divine Orb" "Fusing" "Regal Orb" "Vaal Orb"
+    SetTextColor 186 104 200
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 2 300
 
 Show
     BaseType "Orb of Regret" "Jeweller's Orb" "Gemcutter's Prism" "Orb of Chance" "Cartographer's Chisel" "Orb of Scouring"
-    SetTextColor 255 128 0
+    SetTextColor 186 104 200
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 2 300
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 224 64 251
+    SetTextColor 200 255 0
     SetBorderColor 255 255 255
     SetFontSize 32
     PlayAlertSound 11 200
