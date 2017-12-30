@@ -254,7 +254,7 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 255 0 255
     SetFontSize 44
-    PlayAlertSound 1 300
+    PlayAlertSound 5 300
 
 Show
     BaseType "Mirror of Kalandra"
