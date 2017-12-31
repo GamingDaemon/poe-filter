@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.5
+# Version: 0.4.6
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -363,10 +363,9 @@ Show
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
-    SetTextColor 255 128 220
+    SetTextColor 0 128 255
     SetBorderColor 255 255 255
     SetFontSize 32
-    PlayAlertSound 11 200
 
 Show
     BaseType "Orb" "Shard"
@@ -468,21 +467,13 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
-    Class Ring Amulet
+    Class Ring Amulet Belt
     Rarity Rare
-    ItemLevel >= 75
-    SetTextColor 255 104 0
+    ItemLevel >= 60
+    SetTextColor 255 0 200
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 10 300
-
-Show
-    Class Ring Amulet
-    Rarity Rare
-    ItemLevel >= 60
-    SetFontSize 35
-    SetBorderColor 255 255 255
-    PlayAlertSound 8 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
