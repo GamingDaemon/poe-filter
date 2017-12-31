@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.4
+# Version: 0.4.5
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -88,7 +88,7 @@
 #
 # Highest Currency              Dark Pink       (255 0 255)
 # Currency                      Pastel Green    (0 255 200)
-# Maps (mos t)                  Powder Blue     (0 200 255)
+# Maps (most)                   Powder Blue     (0 200 255)
 # Uniques Items                 Dark Red        (255 50 0)
 # 6-Link Items                  Dark Pink       (255 0 255)
 # 6-Socket Items                Lt Powder Blue  (80 240 255)
@@ -97,7 +97,7 @@
 # Rare Items (No Recipe):       Light Yellow    (255 240 192)
 # Rare Jewelry (Regal Recipe):  Orange          (255 104 0)
 # Rare Jewelry (Chaos Recipe):  Yellow          (default)
-# Jewels:                       Purple          (255 0 200)
+# Jewels                       Purple          (255 0 200)
 # Labyrinth                     Light Purple    (255 128 220)
 # Essence Crafting              Bright Yellow   (255 200 0)
 # Desired Magic Flasks          Powder Blue     (0 200 255)
@@ -113,7 +113,7 @@
 # Shaper's Orbs                 Lt Powder Blue  (80 240 255)
 # Cartogrpahers Items           Purple          (165 128 165)
 # Divination Card               Light Pink      (220 128 255)
-# Portal Scroll                 Light Pink      (220 128 255)
+# Wisdom & Portal Scrolls       Light Green     (160 255 160)
 # Chrome Orbs                   Cyan            (128 255 255)
 # Rare RGB Items                Cyan            (128 255 255)
 # Chrome Orb Recipe             Cyan            (255 182 255)
@@ -321,7 +321,7 @@ Show
 
 Show
     BaseType "Portal Scroll"
-    SetTextColor 220 128 255
+    SetTextColor 160 255 160
 
 Show
     BaseType "Exalted Orb"
@@ -457,7 +457,7 @@ Show
 
 Show
     Sockets >= 6
-    SetTextColor 220 80 164
+    SetTextColor 0 128 255
     SetFontSize 42
     PlayAlertSound 3 300
 
