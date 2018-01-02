@@ -216,9 +216,9 @@ Show
     SetFontSize 34
 
 Show
-    BaseType "Vaal"
     Class Gem
-    SetTextColor 220 80 164
+    Quality > 16
+    SetTextColor 255 0 255
     SetFontSize 34
 
 Show
@@ -226,6 +226,10 @@ Show
     Quality > 0
     SetTextColor 0 200 255
     SetFontSize 34
+Show
+    Class Gem
+    SetTextColor 96 96 96
+    SetFontSize 28
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
