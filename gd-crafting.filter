@@ -157,7 +157,7 @@ Show
 
 Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
-    Rarity = Normal
+    Rarity Normal
     SetTextColor 255 200 0
     SetBorderColor 255 255 255
     SetFontSize 32
