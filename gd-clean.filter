@@ -6,6 +6,9 @@
 #
 # https://github.com/GamingDaemon/poe-filter
 #
+# Color definitions:
+# https://github.com/GamingDaemon/poe-filter/blob/master/colors.css
+#
 # *****************************************************************************
 
 # *****************************************************************************
@@ -79,52 +82,6 @@
 # Light Red	            255 200 200
 # Dark Gray	            96 96 96
 # Light Gray            160 160 160
-#
-# *****************************************************************************
-
-# *****************************************************************************
-#
-# Colors Assignments
-#
-# Highest Currency              Dark Pink       (255 0 255)
-# Currency                      Pastel Green    (0 255 200)
-# Maps (most)                   Powder Blue     (0 200 255)
-# Uniques Items                 Dark Red        (255 50 0)
-# 6-Link Items                  Dark Pink       (255 0 255)
-# 6-Socket Items                Lt Powder Blue  (80 240 255)
-# Rare Items (Regal Recipe):    Orange          (255 104 0)
-# Rare Items (Chaos Recipe):    Yellow          (default)
-# Rare Items (No Recipe):       Light Yellow    (255 240 192)
-# Rare Jewelry (Regal Recipe):  Orange          (255 104 0)
-# Rare Jewelry (Chaos Recipe):  Yellow          (default)
-# Jewels                       Purple          (255 0 200)
-# Labyrinth                     Light Purple    (255 128 220)
-# Essence Crafting              Bright Yellow   (255 200 0)
-# Desired Magic Flasks          Powder Blue     (0 200 255)
-# Desired Quality Flasks        Bright Orange   (255 176 40)
-# Desired Normal Flasks         Pale Blue       (200 255 255)
-# Quicksilver Quality Flasks    Orange          (255 104 0)
-# Quicksilver Flasks            Light Orange    (255 160 0)
-# Special Gems                  Dark Orange     (220 80 0)
-# Vaal Gems                     Pink            (220 80 164)
-# Superior Gems                 Powder Blue     (0 200 255)
-# Normal Gems                   Green           (default)
-# Essences                      Plum            (210 165 165)
-# Shaper's Orbs                 Lt Powder Blue  (80 240 255)
-# Cartogrpahers Items           Purple          (165 128 165)
-# Divination Card               Light Pink      (220 128 255)
-# Wisdom & Portal Scrolls       Light Green     (160 255 160)
-# Chrome Orbs                   Cyan            (128 255 255)
-# Rare RGB Items                Cyan            (128 255 255)
-# Chrome Orb Recipe             Cyan            (255 182 255)
-# Utility Flasks                Light Red       (255 200 200)
-# Items for Chances             Dark Gray       (96 96 96)
-# Crafting                      Light Gray      (160 160 160)
-# League specific items         Bright Orange   (255 176 40)
-# Alterations Et Al             Bright Orange   (255 176 40)
-# Miscellaneous Items           Light Green     (160 255 160)
-# Miscellaneous Orbs/Shards     Violet          (102 0 102)
-# Miscellaneous Currency        Blue            (0 128 255)
 #
 # *****************************************************************************
 
