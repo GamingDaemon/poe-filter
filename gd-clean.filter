@@ -124,19 +124,6 @@ Show
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
-# Items for Essence Crafting
-#
-# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-Show
-    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Glove" "Fingerless Silk Gloves"
-    Rarity = Normal
-    SetTextColor 255 200 0
-    SetBorderColor 255 255 255
-    SetFontSize 32
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#
 # Flasks
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -531,28 +518,6 @@ Show
     Class Flasks
     SetTextColor 255 200 200
     SetFontSize 26
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#
-# Items for using Chances
-#
-# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-Show
-    BaseType "Harbinger Bow" "Spine Bow"
-    Rarity Normal
-    ItemLevel >= 75
-    SetTextColor 96 96 96
-    SetFontSize 30
-    SetBorderColor 255 255 255
-
-Show
-    BaseType "Sorcerer Boots"
-    Rarity Normal
-    ItemLevel >= 75
-    SetTextColor 96 96 96
-    SetFontSize 30
-    SetBorderColor 255 255 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
