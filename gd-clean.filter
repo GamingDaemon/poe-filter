@@ -137,14 +137,14 @@ Show
 
 Show
     BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
-    Rarity = Magic
+    Rarity Magic
     SetTextColor 0 200 255
     SetFontSize 26
     SetBorderColor 255 255 255
 
 Show
     BaseType "Sanctified Life Flask" "Eternal Life Flask" "Divine Mana Flask"
-    Rarity = Normal
+    Rarity Normal
     SetTextColor 200 255 255
     SetFontSize 26
     SetBorderColor 255 255 255
@@ -533,7 +533,7 @@ Show
 
 Show
     BaseType "Splinter of" "Blessing" "Breachstone"
-    Rarity = Normal
+    Rarity Normal
     SetTextColor 255 176 40
     SetFontSize 40
 
