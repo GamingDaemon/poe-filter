@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.7
+# Version: 0.4.8
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -335,8 +335,9 @@ Show
 
 Show
     BaseType "Sacrifice at Midnight"
-    SetTextColor 255 104 0
+    SetTextColor 0 200 255
     SetFontSize 38
+    SetBorderColor 255 160 0
     PlayAlertSound 13 300
 
 Show
