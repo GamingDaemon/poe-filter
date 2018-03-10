@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.8
+# Version: 0.4.10
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -271,7 +271,7 @@ Show
     Class Card
     SetTextColor 220 128 255
     SetFontSize 40
-    PlayAlertSound 6 250
+    PlayAlertSound 16 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
