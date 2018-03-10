@@ -322,18 +322,25 @@ Show
     SetFontSize 34
 
 Show
-    BaseType "Orb of Alchemy" "Blessed Orb" "Chaos Orb" "Divine Orb" "Fusing" "Regal Orb" "Vaal Orb"
+    BaseType "Chaos Orb"
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 2 300
 
 Show
+    BaseType "Orb of Alchemy" "Blessed Orb" "Divine Orb" "Fusing" "Regal Orb" "Vaal Orb"
+    SetTextColor 0 255 200
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound 10 300
+
+Show
     BaseType "Orb of Regret" "Jeweller's Orb" "Gemcutter's Prism" "Orb of Chance" "Cartographer's Chisel" "Orb of Scouring"
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
-    PlayAlertSound 2 300
+    PlayAlertSound 11 300
 
 Show
     BaseType "Alteration" "Augmentation" "Transmutation"
