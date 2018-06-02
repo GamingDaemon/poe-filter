@@ -211,6 +211,11 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
+    BaseType "Vaal"
+    SetTextColor 255 104 0
+    SetFontSize 34
+
+Show
     BaseType "Empower" "Enlighten" "Enhance"
     SetTextColor 220 80 0
     SetFontSize 34
