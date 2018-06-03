@@ -214,9 +214,16 @@ Show
 
 Show
     Class Gem
+    GemLevel >= 15
+    SetTextColor 255 200 200
+    SetFontSize 34
+
+Show
+    Class Gem
     Quality > 0
     SetTextColor 0 200 255
     SetFontSize 34
+
 Show
     Class Gem
     SetTextColor 96 96 96
@@ -586,6 +593,26 @@ Show
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+# Incursion
+Show
+    BaseType "Stone of Passage" "Flashpowder Keg"
+    SetTextColor 255 176 40
+    SetFontSize 34
+    PlayAlertSound 3 250
+
+Show
+    BaseType "Vial" "Impurity"
+    SetTextColor 210 165 165
+    SetFontSize 34
+    PlayAlertSound 3 250
+
+Show
+    HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi"
+    SetTextColor 0 128 255
+    SetFontSize 34
+    PlayAlertSound 3 250
+
+# Previous
 Show
     BaseType "Leaguestone"
     SetTextColor 255 176 40
