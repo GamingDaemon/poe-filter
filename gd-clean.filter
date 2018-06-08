@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.4.10
+# Version: 0.5.2
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -171,11 +171,14 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
+    Class Gem
     BaseType "Vaal"
     SetTextColor 255 104 0
     SetFontSize 34
+    PlayAlertSound 11 300
 
 Show
+    Class Gem
     BaseType "Empower" "Enlighten" "Enhance"
     SetTextColor 220 80 0
     SetFontSize 34
@@ -301,7 +304,13 @@ Show
     PlayAlertSound 2 300
 
 Show
-    BaseType "Orb of Alchemy" "Blessed Orb" "Divine Orb" "Fusing" "Regal Orb" "Vaal Orb"
+    BaseType "Vaal Orb"
+    SetTextColor 255 104 0
+    SetFontSize 40
+    PlayAlertSound 16 300
+
+Show
+    BaseType "Orb of Alchemy" "Blessed Orb" "Divine Orb" "Fusing" "Regal Orb"
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
